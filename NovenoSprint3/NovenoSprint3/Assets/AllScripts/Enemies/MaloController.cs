@@ -1,0 +1,67 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MaloController : MonoBehaviour
+{
+
+    //Variables
+    private float speed = 0.15f;
+    public GameObject enemyBullet;
+    public GameObject explosion;
+    public GameObject PowerUp;
+    Vector3 pos = new Vector3(11, 13, 0);
+    public int ram;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+      
+        InvokeRepeating("Shoot",1f,1f); //Dispara cada segundo
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+       transform.position += Vector3.right * speed;
+       if(transform.position.x > 24f)
+        {
+            Destroy(transform.gameObject); //Destruye el malisimo cuando sale de la escena
+            
+        } 
+       
+    }
+    
+
+    void Shoot()
+    {
+        if (!ScenesController.childMode)
+        {
+            Instantiate(enemyBullet, transform.position + Vector3.down + Vector3.back, Quaternion.identity);
+        }
+            
+    }
+
+    //Destruye el malisimo si colisiona, suma al marcador 500 puntos.
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("PlayerShot"))
+        {
+            Destroy(collision.gameObject);
+            scoreTextController.score += 500;
+            Instantiate(explosion, transform.position + new Vector3(0, 0, -5), transform.rotation);
+
+            //Gana el power up de manera random
+            ram = (int)(Random.value * 2);
+            if(ram == 1)
+            {
+                //Crea el powerUp
+                Instantiate(PowerUp, pos, Quaternion.identity);
+
+            }
+            
+            Destroy(this.gameObject);
+        }
+    }
+
+}

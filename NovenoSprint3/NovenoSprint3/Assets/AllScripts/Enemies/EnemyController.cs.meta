@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 05756c61d98234a48be614703ce935a4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemies: {instanceID: 0}
+  - cabeza: {instanceID: 0}
+  - explosion: {fileID: 1162193385826302889, guid: db8773560630cf242a3a7c1d468931f0,
+      type: 3}
+  - enemyBullet: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

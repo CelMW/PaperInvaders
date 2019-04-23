@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 3f0fe097668fdeb4b82b7167f99c91a9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Engines
+    100002: Fire
+    100004: //RootNode
+    100006: MFace
+    100008: MTentacles
+    100010: MTentacles.001
+    100012: Shooter
+    100014: Spaceship
+    400000: Engines
+    400002: Fire
+    400004: //RootNode
+    400006: MFace
+    400008: MTentacles
+    400010: MTentacles.001
+    400012: Shooter
+    400014: Spaceship
+    2100000: MTentacles
+    2100002: MFace
+    2100004: Fire
+    2100006: Shooter
+    2100008: Engines
+    2100010: Spaceship
+    2300000: Engines
+    2300002: Fire
+    2300004: MFace
+    2300006: Shooter
+    2300008: Spaceship
+    3300000: Engines
+    3300002: Fire
+    3300004: MFace
+    3300006: Shooter
+    3300008: Spaceship
+    4300000: MTentacles.001
+    4300002: MFace
+    4300004: MTentacles
+    4300006: Fire
+    4300008: Shooter
+    4300010: Engines
+    4300012: Spaceship
+    9500000: //RootNode
+    13700000: MTentacles
+    13700002: MTentacles.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engines
+    second: {fileID: 2100000, guid: 98525227b6a150443a5bcc7501a31022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire
+    second: {fileID: 2100000, guid: cf906df968c5e6645bb4a7fd33f70283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MFace
+    second: {fileID: 2100000, guid: 2a7b50567daa83240bdefb3b360dec05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MTentacles
+    second: {fileID: 2100000, guid: e97fee65ee544fc41a41255eee280536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shooter
+    second: {fileID: 2100000, guid: 2d017dceb1f34b446816558ad7f492cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spaceship
+    second: {fileID: 2100000, guid: 7d0140c9447f3cd4583af6966df229b5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
