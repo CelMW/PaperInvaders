@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6627987665170718980}
   - component: {fileID: 5991445071775562159}
   - component: {fileID: 5747491210970129243}
+  - component: {fileID: 5450631121972760392}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -130,6 +131,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.028344309, y: 0.013596334, z: 0.0033858714}
   m_Center: {x: 0.000000029802322, y: 1.5193031e-17, z: -0.0021382286}
+--- !u!114 &5450631121972760392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3634863105040808732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdded9ae089bdf429c231838abbc17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poiName: Bunker
 --- !u!1 &8772931337735731699
 GameObject:
   m_ObjectHideFlags: 0

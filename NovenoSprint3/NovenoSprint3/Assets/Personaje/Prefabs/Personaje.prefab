@@ -457,6 +457,7 @@ GameObject:
   - component: {fileID: 6209264183505426161}
   - component: {fileID: 6209264183505426174}
   - component: {fileID: 6209264183505426175}
+  - component: {fileID: 7550834280825841884}
   - component: {fileID: 6209264183505426172}
   - component: {fileID: 6209264183505426160}
   - component: {fileID: 6209264183505426163}
@@ -502,6 +503,7 @@ MonoBehaviour:
   shot: {fileID: 4125943714466083231, guid: 3408948b93fb2f0458f1202fcd3cd30b, type: 3}
   shotSpawn: {fileID: 6209264183154528042}
   shotlaser: {fileID: 0}
+  colornave: {fileID: 0}
   anim: {fileID: 6209264182702728814}
   ScoreMan: {fileID: 0}
 --- !u!54 &6209264183505426175
@@ -520,6 +522,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 1
+--- !u!114 &7550834280825841884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209264183505426173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdded9ae089bdf429c231838abbc17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poiName: 
 --- !u!65 &6209264183505426172
 BoxCollider:
   m_ObjectHideFlags: 0

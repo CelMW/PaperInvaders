@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1570794444303541472}
   - component: {fileID: 1570794444303541479}
   - component: {fileID: 1570794444303541476}
+  - component: {fileID: 8663742822494345566}
   - component: {fileID: 2958637325870306085}
   - component: {fileID: 2647333466183389458}
   m_Layer: 0
@@ -135,6 +136,19 @@ MonoBehaviour:
   fila: 0
   columna: 0
   enBorde: 0
+--- !u!114 &8663742822494345566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570794444303541473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdded9ae089bdf429c231838abbc17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poiName: Enemy
 --- !u!111 &2958637325870306085
 Animation:
   m_ObjectHideFlags: 0
